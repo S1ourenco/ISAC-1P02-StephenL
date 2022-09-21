@@ -1,0 +1,11 @@
+/* Changes the font of the paragraph and capitalizes it */
+p{
+font-family: Arial;
+text-transform: capitalize;
+}
+
+/* Adds a black border around the image */
+img{
+  border:1px solid black;
+
+}

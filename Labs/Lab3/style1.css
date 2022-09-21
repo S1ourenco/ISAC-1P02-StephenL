@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-#greenText{
+.greenText{
   color: green;
   font-style: italic;
 }

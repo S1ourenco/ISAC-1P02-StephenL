@@ -1,0 +1,33 @@
+.dashedbox{
+  border: dotted 2px;
+border-style: dotted;
+border-color: purple;
+}
+#firsttext{
+text-align: center;
+font-size: 12px;
+padding-top: 150px;
+}
+#secondtext{
+text-align: center;
+font-size: 8px;
+font-weight: bold;
+color: darkgreen;
+}
+#thirdtext{
+color: orange;
+font-size: 25px;
+}
+#redtext{
+  color: red;
+  vertical-align: super;
+}
+
+#forthtext{
+text-align: right;
+font-size: 7px;
+color: purple;
+}
+#yellowtext{
+  color: yellow;
+}

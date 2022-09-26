@@ -1,0 +1,30 @@
+body{
+background-color: blue;
+}
+.Box{
+margin: 150px 150px 150px 150px;
+border-color: black;
+border-style:solid;
+border-width: 5px;
+padding-left: 0px
+}
+.textbox{
+  margin: 20px 20px 20px 20px;
+  padding-left: 5px;
+  border: green 2px dashed;
+  font-size: 12px;
+
+}
+p{
+  color: red;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight:lighter;
+}
+
+.photobox{
+  border: orange 2px dashed;
+  margin: 0px 80% 0px 0px;
+  padding: 15px;
+
+}

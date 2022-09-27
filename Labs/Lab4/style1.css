@@ -24,7 +24,8 @@ p{
 
 .photobox{
   border: orange 2px dashed;
-  margin: 0px 80% 0px 0px;
+  display: inline-block;
+  margin-bottom: 0px;
   padding: 15px;
 
 }

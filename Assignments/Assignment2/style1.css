@@ -1,0 +1,69 @@
+.Grouped,h1,h2{
+  font-family: Arial;
+
+}
+
+.nested p{
+  background-color: lightblue;
+}
+
+#top{
+  position: fixed;
+
+}
+
+.list1{
+  position: absolute;
+  top: 255px;
+  left: 200px;
+}
+
+.list2{
+  position: relative;
+  left: 400px;
+}
+
+#wrapper{
+  background-color: black;
+  color: White;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+#header{
+  height: 30px;
+  text-align: center;
+}
+
+#leftabsolute{
+  float: left;
+  height: 350px;
+  background-color: blue;
+  width:500px;
+}
+
+#rightrelative{
+  float: right;
+  height: 350px;
+  background: orange;
+  width: 500px;
+}
+.para1{
+  color: green;
+}
+.para2{
+  font-size: 30px;
+}
+.para3{
+  font-family: impact;
+}
+.caps{
+  text-transform: capitalize;
+}
+
+.relativepic{
+  margin: 15px;
+  border: red 5px dotted;
+  background: green;
+  padding: 10px;
+}

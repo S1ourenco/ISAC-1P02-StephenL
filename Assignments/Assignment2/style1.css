@@ -7,8 +7,9 @@
   background-color: lightblue;
 }
 
-#top{
+#fix{
   position: fixed;
+  top: 30px;
 
 }
 

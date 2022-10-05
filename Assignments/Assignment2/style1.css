@@ -20,7 +20,7 @@
 
 .list2{
   position: relative;
-  left: 400px;
+  left: 250px;
 }
 
 #wrapper{
@@ -49,7 +49,7 @@
   width: 500px;
 }
 .para1{
-  color: green;
+  color: red;
 }
 .para2{
   font-size: 30px;
@@ -58,7 +58,7 @@
   font-family: impact;
 }
 .caps{
-  text-transform: capitalize;
+  text-transform:uppercase;
 }
 
 .relativepic{

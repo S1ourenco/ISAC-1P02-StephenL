@@ -1,0 +1,171 @@
+body{
+
+        background-color:azure;
+        font-family: Georgia;
+}
+
+#wrapper{
+        width:910px;
+        margin:0 auto;
+
+}
+
+#headerWrapper{
+        width:910px;
+        height:200px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color:Darkcyan;
+
+}
+
+#Logo{
+        float:left;
+
+        margin-left: 10px;
+        margin-top: 50px;
+        text-align: center;
+        width:205px;
+        height:100px;
+        background-color:darkgray;
+}
+#Support{
+
+  height: 0px;
+  width: 220px;
+  left: 120px;
+  top: 10px;
+  font-family: Arial;
+
+
+
+
+}
+
+#headerMid{
+        float:left;
+        width:500px;
+        height:200px;
+
+}
+
+
+#Title{
+        width:300px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 50px;
+        color: White;
+        font-family: Arial;
+
+
+
+        text-align: center;
+}
+#Slogan {
+  margin-top: 50px;
+  margin-left: 50px;
+  width:400px;
+  height:50px;
+  color: white;
+  border-style: double;
+  text-align: center;
+}
+
+
+#Signup{
+        float:right;
+        margin-right:20px;
+        margin-top: 10px;
+        width:165px;
+        height:50px;
+        border-radius: 10px;
+        border-style: ridge;
+        font-size: 12px;
+        text-align:center;
+        background-color:cyan;
+}
+
+#Codeexplorer{
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width:165px;
+        height:80px;
+        border-style: ridge;
+        background-color: White;
+        text-align: center;
+
+
+}
+
+
+#OfferingWrapper{
+  width:910px;
+  height:250px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: turquoise;
+
+
+}
+
+#PopularSearches{
+        float: left;
+        margin: 10px 10px 10px 20px;
+        width:400px;
+        height:180px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: LightBlue;
+}
+
+
+#Press{
+  float: right;
+  margin: 10px 20px 10px 10px;
+  width:400px;
+  height:180px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: LightBlue;
+}
+
+#About{
+  padding: 10px;
+  width:910px;
+  height:200px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: white ;
+  text-align: center;
+}
+
+
+#Footer{
+  width: 910px;
+  padding: 10px;
+  text-align: center;
+  background-color:darkgray;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  height: 300px;
+}
+
+#About2{
+  text-align: left;
+}
+#Contact{
+  text-align: left;
+}
+#Advertise{
+  text-align: left;
+}
+#Privacy{
+  text-align: left;
+}
+#FAQ{
+  text-align: left;
+}

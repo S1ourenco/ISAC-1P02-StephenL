@@ -1,13 +1,10 @@
-body{
 
-        background-color:azure;
-        font-family: Georgia;
-}
 
 #wrapper{
         width:910px;
         margin:0 auto;
-
+        background-color: White;
+        font-family: georgia;
 }
 
 #headerWrapper{
@@ -139,7 +136,7 @@ body{
   height:200px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
-  background-color: white ;
+  background-color: azure ;
   text-align: center;
 }
 

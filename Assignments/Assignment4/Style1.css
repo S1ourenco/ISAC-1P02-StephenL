@@ -43,6 +43,7 @@ position: relative;
 text-align: center;
 float:left;
 width: 100%;
+height: 50px;
 text-align;
 text-decoration: underline;
 height: auto;
@@ -57,15 +58,16 @@ height: auto;
   width: 200px;
   font-size: 20px;
 
-
-
 }
 
 #Photo{
   float: right;
-  height: 50px;
-  border: dashed;
-  width: 50px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  height: 140px;
+  border: solid;
+  width: 121px;
 
 }
 

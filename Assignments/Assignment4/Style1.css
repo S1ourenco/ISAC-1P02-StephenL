@@ -53,7 +53,7 @@ height: auto;
 #Menu {
   float: left;
 
-  position:relative;
+  position: absolute;
   left: 100px;
   width: 200px;
   font-size: 20px;
@@ -63,11 +63,11 @@ height: auto;
 #Photo{
   float: right;
   position: absolute;
-  top: 50px;
+  top: 30px;
   right: 100px;
-  height: 140px;
+  height: 233px;
   border: solid;
-  width: 121px;
+  width: 200px;
 
 }
 

@@ -10,8 +10,8 @@ margin: auto;
 
 
 #Wrapper{
-background-color: lightgray;
-height: 1600px;
+background-color: gray;
+height: 1500px;
 max-width: 80%;
 margin: auto;
 width: auto;
@@ -27,16 +27,32 @@ background-color:lightgray;
 width: 80%;
 height:200px;
 position: fixed;
+border-bottom: 2px solid;
+
 
 
 }
 
-#button{
-float: left;
-position: relative;
-  width: 100%;
-  text-align: center;
 
+#button{
+  position: fixed;
+  left: 47%;
+  top:75px;
+}
+
+.buttonstyle{
+
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.buttonstyle:hover
+{background-color: salmon;
 }
 
 #Title{
@@ -50,15 +66,53 @@ height: auto;
 
 }
 
-#Menu {
-  float: left;
-
-  position: absolute;
-  left: 100px;
-  width: 200px;
-  font-size: 20px;
-
+.menubutton{
+  position:fixed;
+  left: 15%;
+  top: 75px;
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
 }
+
+.dropdown {
+  position: fixed;
+  left: 15%;
+  top: 125px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content
+{display: block;
+}
+
+.dropdown:hover .menubutton
+{background-color: salmon;
+}
+/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
 #Photo{
   float: right;
@@ -74,18 +128,20 @@ height: auto;
 #MiddleWrapper{
 
   position: absolute;
-  top: 300px;
+  top: 200px;
   width: 60%;
   height: 500px;
   background-color:#555 ;
+  font-size: 15px;
 }
 
 #BottomWrapper{
 position: absolute;
-top: 800px;
+top: 700px;
 background-color: gray;
 height: 500px;
 width: 60%;
+font-size: 15px;
 
 }
 #SideWrapper{
@@ -94,17 +150,29 @@ width: 25%;
 min-width: 10%;
 position: relative;
 float: right;
-top: 300px;
+top: 200px;
 height: 1000px;
 border: 2px solid black;
+font-size: 20px;
 }
 
+
+#SideTitle{
+  text-align: center;
+}
+
+#years{
+  font-weight: bold;
+}
+#OldYoung{
+  font-weight: bold;
+}
 
 #Footer{
   color: white;
 background-color: darkgray;
 position:absolute;
-top:1300px;
+top:1200px;
 height: 300px;
 width: 80%;
 

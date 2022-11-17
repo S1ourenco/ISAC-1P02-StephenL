@@ -20,17 +20,15 @@
           <h1> Stephen's Blog </h1>
         </div>
 				<div id="button">
-					<button onclick="darkmode()"> Dark Mode </button>
+					<button onclick="darkmode()" class="buttonstyle"> Dark Mode </button>
 				</div>
 
-      <div id="Menu">
-        <p>
+      <div class="dropdown">
+				<button class="menubutton"> Menu </button>
+					<div class="dropdown-content">
           <a href="Page2.html"> About Me </a>
-        </p>
-
-        <p>
           <a href="Page3.html"> Hobbies </a>
-        </p>
+				</div>
       </div>
       <div id="Photo">
         <img class="relativepic" src="Me100px.png" alt="A headshot of Stephen Lourenco" />
@@ -58,30 +56,30 @@
 <h2> Images </h2>
 
 	<h3> Abolute </h3>
-		<p>
-			<img src="https://brocku.ca/wp-content/themes/brocku-mu-base/images/brocku-logo-rgb.png" alt="A link to Brock University's Logo" />
-		</p>
+
 	<h3> Relative </h3>
-		<p>
-			<img src="Brock Logo.png" alt="A png of the Brock University Logo" />
-		</p>
 
 </div>
 
 <div id="SideWrapper">
-  <h2> Blogs </h2>
-
-
+	<div id="SideTitle">
+		<h2> Fun Facts </h2>
+	</div>
+	<div>
+		I am 24 years old. <button onclick="CalcAge()" class="buttonstyle"> Age Prompt </button>
+		<p> You are <span id="years">    </span> years <span id="OldYoung">  </span>
+			 than me.</p>
   </div>
-
+</div>
 <div id="Footer">
   <h2> Contact Information </h2>
     <p>
       email:
         <a href="mailto:sl18qn@brocku.ca?subject=Blog feedback">sl18qn@brocku.ca</a>
 
-	  <p> <!-- Reference to -->
-
+	  </p> <!-- Reference to -->
+		<p id="PhoneNum">
+			Phone # 647-966-<button onclick="showNum()" class="buttonstyle"> Click here </button>
     <p>
 		<a id="bottom_of_page" href="#top"> Top of Page</a>
 	</p>

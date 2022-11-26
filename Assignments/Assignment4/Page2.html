@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta content="en-us" http-equiv="Content-Language" />
+  <link href="Style2.css" rel="stylesheet" type="text/css" />
+
+	<title>Stephen's Final About Me</title>
+</head>
+<body id="top">
+
+  <div id = "Wrapper"> <!-- Outer most Wrapper-->
+
+
+    <div id="Header" class="Outside"> <!-- Header/ Moving fixed portion -->
+
+				<div id="Title">
+          <h1> About Me </h1>
+        </div>
+        <p id="clock"></p>
+				<div id="button">
+					<button onclick="darkmode()" class="buttonstyle"> Dark Mode </button>
+				</div>
+
+      <div class="dropdown">
+				<button class="menubutton"> Menu </button>
+					<div class="dropdown-content">
+          <a href="Page1.html"> Home </a>
+          <a href="Page3.html"> Hobbies </a>
+				</div>
+      </div>
+      <div id="Photo">
+        <img class="relativepic" src="Me100px.png" alt="A headshot of Stephen Lourenco" />
+      </div>
+
+    </div> <!-- header closing -->
+
+<div id="MiddleWrapper">
+
+
+</div>
+
+<div id="BottomWrapper">
+<h2> Contact Form </h2>
+
+	<form id="ContactForm">
+  <label for="firstname">First name:</label>
+  	<input type="text" id="fname" name="firstname"><br>
+  <label for="lastname">Last name:</label>
+  	<input type="text" id="lname" name="lastname"><br>
+	<label for="browser"> Which is Your Prefered Browser? </label><br>
+			<input type="radio" id="Edge" name="browser" value="Edge">
+				<label for="Microsoft Edge"> Mircosoft Edge</label> <br>
+			<input type="radio" id="Chrome" name="browser" value="Google Chrome">
+				<label for="Google Chrome"> Google Chrome</label> <br>
+			<input type="radio" id="Safari" name="browser" value="Safari">
+				<label for="Safari"> Safari</label> <br>
+			<input type="radio" id="Other" name="Other" value="Other">
+				<label for="Other"> Other</label> <br>
+	<label for="Feedback/Inquires"> Feedback/Inquires:<label><br>
+		<textarea name="Feedback/Inquires" rows="10" cols="50"></textarea><br>
+	<input type="submit" value="Submit" class="buttonstyle">
+</form>
+
+</div>
+
+
+<div id="Footer">
+  <h2> Contact Information </h2>
+    <p>
+      email:
+        <a href="mailto:sl18qn@brocku.ca?subject=Blog feedback">sl18qn@brocku.ca</a>
+
+	  </p> <!-- Reference to -->
+		<p id="PhoneNum">
+			Phone # 647-966-<button onclick="showNum()" class="buttonstyle"> Click here </button>
+    			<p id="Linkedin">
+				<a href="https://www.linkedin.com/in/stephen-lourenco-5a53b01a9/"> Click For Linkedin </a>
+				</p>
+			<p>
+		<a id="bottom_of_page" href="#top"> Top of Page</a>
+	</p>
+</div>
+
+</div> <!-- closing wrapper -->
+  <script type="text/javascript" src="scripts2.js"></script>
+</body>
+</html>

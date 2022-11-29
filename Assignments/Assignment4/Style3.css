@@ -24,7 +24,7 @@ width: auto;
 
 #Header{
 z-index: 1;
-background-color:lightgray;
+background-color:#FE5763;
 width: 80%;
 height:200px;
 position: fixed;
@@ -35,8 +35,9 @@ min-width: 300px;
 
 }
 #clock{
-
   position: absolute;
+  left: 15px;
+  font-size: 20px;
 }
 #button{
   position: fixed;
@@ -46,17 +47,18 @@ min-width: 300px;
 
 .buttonstyle{
 
-  background-color: red;
+  background-color: #FF6C00;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
 
+
 }
 
 .buttonstyle:hover
-{background-color: salmon;
+{background-color: #FFC59A;
 }
 
 #Title{
@@ -64,9 +66,11 @@ text-align: center;
 float:left;
 width: 100%;
 height: 50px;
+color: #FE9AA1;
 text-align;
 text-decoration: underline;
 height: auto;
+text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -74,7 +78,7 @@ height: auto;
   position:fixed;
   left: 15%;
   top: 75px;
-  background-color: red;
+  background-color: #FF6C00;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -94,7 +98,7 @@ height: auto;
   position: fixed;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px;
   z-index: 1;
 }
 
@@ -144,17 +148,32 @@ height: auto;
 position: absolute;
 top: 700px;
 background-color: gray;
-height: 500px;
+height: auto;
 width: 80%;
 font-size: 15px;
 min-width: 300px;
 
 }
 
-#ContactForm{
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
 
+div.gallery:hover {
+  border: 1px solid black;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
 
+div.description {
+  padding: 15px;
+  text-align: center;
 }
 
 #Footer{

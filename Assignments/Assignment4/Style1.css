@@ -11,8 +11,8 @@ font-family: Arial;
 
 
 #Wrapper{
-background-color: gray;
-height: 1500px;
+
+height: 1000px;
 max-width: 80%;
 margin: auto;
 width: auto;
@@ -23,8 +23,8 @@ width: auto;
 
 
 #Header{
-z-index: 1;
-background-color:lightgray;
+z-index: 2;
+background-color:#FE5763;
 width: 80%;
 height:200px;
 position: fixed;
@@ -38,6 +38,7 @@ min-width: 300px;
 #clock{
   position: absolute;
   left: 15px;
+  font-size: 20px;
 }
 #button{
   position: fixed;
@@ -47,7 +48,7 @@ min-width: 300px;
 
 .buttonstyle{
 
-  background-color: red;
+  background-color: #FF6C00;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -57,10 +58,11 @@ min-width: 300px;
 }
 
 .buttonstyle:hover
-{background-color: salmon;
+{background-color: #FFC59A;
 }
 
 #Title{
+  color: #FE9AA1;
 text-align: center;
 float:left;
 width: 100%;
@@ -68,6 +70,7 @@ height: 50px;
 text-align;
 text-decoration: underline;
 height: auto;
+text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -75,7 +78,7 @@ height: auto;
   position:fixed;
   left: 15%;
   top: 75px;
-  background-color: red;
+  background-color: #FF6C00;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -95,13 +98,13 @@ height: auto;
   position: fixed;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px;
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
 }
@@ -115,7 +118,7 @@ height: auto;
 }
 
 .dropdown:hover .menubutton
-{background-color: salmon;
+{background-color: #FFC59A;
 }
 /* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
@@ -136,38 +139,49 @@ height: auto;
   top: 200px;
   width: 60%;
   height: 500px;
-  background-color:#555 ;
+  background-color: gray ;
   font-size: 15px;
   min-width: 300px;
+  color: white;
+  text-indent: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
+#Intro{
+  float: left;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  text-align:center;
 
+
+}
 #BottomWrapper{
 position: absolute;
 top: 700px;
-background-color: gray;
+background-color: #FE9AA1;
 height: 500px;
 width: 60%;
 font-size: 15px;
 min-width: 300px;
+text-shadow: 2px 2px 4px #000000;
 
 }
 #SideWrapper{
-background-color: lightgray;
+  color: white;
+  z-index: 1;
+background-color: #FE9AA1;
 width: 25%;
 min-width: 150px;
 position: relative;
 float: right;
 top: 200px;
-height: 1000px;
-border: 2px solid black;
+height: 800px;
+border-left: 2px dotted #FE192A;
 font-size: 20px;
-
+text-align: center;
+text-shadow: 2px 2px 4px #000000;
 }
 
-
-#SideTitle{
-  text-align: center;
-}
 
 #years{
   font-weight: bold;
@@ -180,12 +194,23 @@ font-size: 20px;
   color: white;
 background-color: darkgray;
 position:absolute;
-top:1200px;
+top:700px;
 height: 300px;
 width: 80%;
 min-width: 300px;
 
 
+}
+
+#ContactInfo{
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#email {
+  text-shadow: 2px 2px 4px #000000;
+}
+#PhoneNum  {
+  text-shadow: 2px 2px 4px #000000;
 }
 #bottom_of_page{
   float: left;

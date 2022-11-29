@@ -2,6 +2,7 @@ body{
 background-color: white;
 margin: auto;
 font-family: Arial;
+color: white;
 }
 
 .darkmode {
@@ -159,7 +160,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 350px;
+  width: 325px;
 }
 
 div.gallery:hover {
@@ -175,7 +176,10 @@ div.description {
   padding: 15px;
   text-align: center;
 }
+#LocationName{
+  font-style: italic;
 
+}
 #Footer{
   color: white;
 background-color: darkgray;
@@ -185,7 +189,16 @@ height: 300px;
 width: 80%;
 min-width: 300px;
 
+}
+#ContactInfo{
+  text-shadow: 2px 2px 4px #000000;
+}
 
+#email {
+  text-shadow: 2px 2px 4px #000000;
+}
+#PhoneNum  {
+  text-shadow: 2px 2px 4px #000000;
 }
 #bottom_of_page{
   float: left;

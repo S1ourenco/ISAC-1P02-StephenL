@@ -1,3 +1,14 @@
+
+if (confirm("By entering this page you agree not to download or share any information from it as it is shared for educational purposes") == true){
+  yes= "you have accepted the terms of this page";
+}
+else{
+
+  window.location.href = "page1.html";
+//https://www.tutorialrepublic.com/faq/how-to-redirect-to-another-web-page-using-jquery.php#:~:text=Answer%3A%20Use%20the%20JavaScript%20window,location%20Property&text=If%20you%20want%20to%20redirect,replace("page_url")%20.
+}
+
+
 function darkmode(){
 
   var element = document.body;

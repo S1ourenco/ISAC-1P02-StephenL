@@ -10,21 +10,18 @@ color: white;
 
 }
 
-h1, h2{
+h1,h2{
   text-align: center;
 }
 
 #Wrapper{
-background-color: gray;
-height: 1500px;
+height: 1300px;
 max-width: 80%;
 margin: auto;
 width: auto;
 
 
-
 }
-
 
 #Header{
 z-index: 1;
@@ -32,12 +29,11 @@ background-color:#FE5763;
 width: 80%;
 height:200px;
 position: fixed;
-border-bottom: 2px solid;
+border-bottom: 2px solid #E897F6;
 min-width: 300px;
 
-
-
 }
+
 #clock{
   position: absolute;
   left: 15px;
@@ -52,7 +48,7 @@ min-width: 300px;
 
 .buttonstyle{
 
-  background-color: #FF6C00;
+  background-color: #FFA319;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -63,7 +59,7 @@ min-width: 300px;
 }
 
 .buttonstyle:hover
-{background-color: salmon;
+{background-color: #FFD79A;
 }
 
 #Title{
@@ -83,7 +79,7 @@ text-shadow: 2px 2px 4px #000000;
   position:fixed;
   left: 15%;
   top: 75px;
-  background-color: #FF6C00;
+  background-color: #FFA319;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -123,56 +119,66 @@ text-shadow: 2px 2px 4px #000000;
 }
 
 .dropdown:hover .menubutton
-{background-color: salmon;
+{background-color: #FFD79A;
 }
-/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
 #Photo{
   float: right;
   position: absolute;
   top: 30px;
-  right: 10%;
+  right: 8%;
   height: 140px;
-  border: solid;
+  border: solid #E897F6;
   width: 120px;
 
 }
 
 #MiddleWrapper{
 
-  position: absolute;
+  position: relative;
   top: 200px;
-  width: 80%;
-  height: 500px;
+  width: 100%;
+  height: 300px;
   background-color:#FE9AA1 ;
   font-size: 15px;
   min-width: 300px;
   text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+#MainP{
+  float: left;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  text-align:center;
 }
 
 #BottomWrapper{
 position: absolute;
-top: 700px;
-background-color: #FF9E57;
+top: 500px;
+background-color: #FF6A57;
 height: 500px;
 width: 80%;
-font-size: 15px;
 min-width: 300px;
 text-shadow: 2px 2px 4px #000000;
 
 }
 
 
-
 div.gallery {
   margin: 3%;
+  width: 80%;
   border: 1px solid white;
   float: left;
-  width: 200px;
+  width: 25%;
+  max-width: 425px;
+  max-height: 500px;
+  display: block;
+
 }
 
 div.gallery:hover {
-  border: 1px solid black;
+  border: 1px solid #E897F6;
 }
 
 div.gallery img {
@@ -181,7 +187,8 @@ div.gallery img {
 }
 
 div.description {
-  padding: 15px;
+  padding: 0px;
+  font-size: 17px;
   text-align: center;
 }
 #LocationName{
@@ -192,10 +199,11 @@ div.description {
   color: white;
 background-color: #FE5763;
 position:absolute;
-top:1200px;
-height: 300px;
+top:1000px;
+height: auto;
 width: 80%;
 min-width: 300px;
+text-align: center;
 
 }
 #ContactInfo{
@@ -209,10 +217,7 @@ min-width: 300px;
   text-shadow: 2px 2px 4px #000000;
 }
 #bottom_of_page{
-  float: left;
-  text-align: center;
-  top: 275px;
-  position: absolute;
+  position: relative;
   width: 100%;
 
 }
